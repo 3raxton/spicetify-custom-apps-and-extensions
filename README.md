@@ -67,10 +67,6 @@ Want to add your own custom app to this repo? <a href="https://github.com/3raxto
 
 * If there are bugs or you'd like to request a feature, open an issue.
 
-## Donate
-
-Please consider [donating](https://paypal.me/BraxtonHuff) **to ensure this repository stays strong**. I create &amp; work on open source projects such as this one for free. If you depend on or find this project helpful, it makes sense to donate in order to help ensure that the project is maintained.
-
 ## License
 Licensed under the [MIT License](https://3raxton.github.io/license) by [Braxton Huff](https://github.com/3raxton) 
 
