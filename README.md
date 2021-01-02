@@ -13,7 +13,6 @@ target="_blank"><br><img width="100" src="https://emojipedia-us.s3.dualstack.us-
 - 🔥 A central location for custom apps for spicetify-cli
 - 👀 More features
 - 🎉 Open source
-- 🎄 If you like or rely on this repository for custom apps please consider <a href="https://paypal.me/BraxtonHuff" target="_blank"> donating</a>
 
 ## How to add Custom Apps to Spicetify
 
