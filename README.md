@@ -66,6 +66,9 @@ Want to add your own custom app to this repo? <a href="https://github.com/3raxto
 
 * If there are bugs or you'd like to request a feature, open an issue.
 
+## Attribution
+This repository is a centralized collection of community-made custom apps and extensions for [Spicetify](https://github.com/khanhas/spicetify-cli). Thanks to these awesome people who make Spotify better for all of us! You can view all of the authors and their apps in the [ATTRIBUTION.md](ATTRIBUTION.md).
+
 ## License
 Licensed under the [MIT License](https://3raxton.github.io/license) by [Braxton Huff](https://github.com/3raxton) 
 
