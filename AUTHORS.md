@@ -34,7 +34,7 @@ Want to add your own custom app to this repo? Follow the instructions below <a h
 
 [Specify any dependencies, author name, and any other info about the custom app]
 ```
-1. **(Optional)** Add your name and custom apps to the AUTHORS.MD file 
+5. **(Optional)** Add your name and custom apps to the AUTHORS.MD file 
      - **If you decide to add your name, please use the following format**
 ```
 # Authors
@@ -44,7 +44,7 @@ Want to add your own custom app to this repo? Follow the instructions below <a h
 - [Your custom app](link to repo)
      - Your custom app description and other info
 ```
-2. Open a Pull Request
+6. Open a Pull Request
 
 ## Support
 
