@@ -1,11 +1,11 @@
-<p align="center"><a href="https://github.com/3raxton/spicetify-customapps/"
+<p align="center"><a href="https://github.com/3raxton/spicetify-custom-apps/"
 target="_blank"><br><img width="100" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/271/fire_1f525.png"></a></p>
 <h1 align="center">Spicetify Custom Apps</h1>
 <p align="center">A repository to help users find custom apps for  <a href="https://github.com/khanhas/spicetify-cli" target="_blank"> spicetify-cli</a></p>
 <p align="center">
 </a>
-<a><img src="https://img.shields.io/badge/more-CustomApps-orange.svg" alt="More Custom Apps"></a>
-<a><img src="https://img.shields.io/badge/for-spicetify-E71A0E.svg" alt="No Sleep"></a>
+<a><img src="https://img.shields.io/badge/more-Custom%20Apps-orange.svg" alt="More Custom Apps"></a>
+<a><img src="https://img.shields.io/badge/for-spicetify-E71A0E.svg" alt="For Spicetify"></a>
 <a href="https://3raxton.github.io/license"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"></a>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F3raxton%2Fspicetify-customapps%2F&count_bg=%23E71A0E&title_bg=%23000000&icon=spotify.svg&icon_color=%23E71A0E&title=hits&edge_flat=false"/></a></p>
 
@@ -41,7 +41,7 @@ custom_apps = reddit|genius|yourownapp
 
 
 ## Contributing / Adding your own custom apps to this repo
-Want to add your own custom app to this repo? <a href="https://github.com/3raxton/NoSleep/issues"  target="_blank">Follow the instructions below:</a>
+Want to add your own custom app to this repo? Follow the instructions below<a href="https://github.com/3raxton/spicetify-custom-apps/CONTRIBUTING.MD"  target="_blank"> or read the CONTRIBUTING.MD</a>
 
 1. Fork this repository
 2. Create another folder with your custom app name **in all lower case with no symbols or spaces and shouldn't contain the word spicetify**. 
