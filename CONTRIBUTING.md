@@ -40,3 +40,11 @@ target="_blank"><br><img width="100" src="https://emojipedia-us.s3.dualstack.us-
      - Your custom app description and other info
 ```
 6. Open a Pull Request
+
+
+## License
+Licensed under the [MIT License](https://3raxton.github.io/license) by [Braxton Huff](https://github.com/3raxton) 
+
+### **If there is any other problem, please refer to the <a href="https://github.com/khanhas/spicetify-cli/wiki"  target="_blank">spicetify-cli wiki</a> to help troubleshoot your problem.**
+
+### **Hopefully this helps improve your use of Spotifty and treats you well! Cheers!**
