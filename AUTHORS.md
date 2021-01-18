@@ -17,7 +17,7 @@ target="_blank"><br><img width="100" src="https://emojipedia-us.s3.dualstack.us-
 
 
 ## Contributing / Adding your own custom apps to this repo
-Want to add your own custom app to this repo? Follow the instructions below<a href="https://github.com/3raxton/spicetify-custom-apps/blob/main/CONTRIBUTING.md"  target="_blank"> or read the CONTRIBUTING.MD file</a>
+Want to add your own custom app to this repo? Follow the instructions below <a href="https://github.com/3raxton/spicetify-custom-apps/blob/main/CONTRIBUTING.md"  target="_blank">or read the CONTRIBUTING.MD file</a>
 
 1. Fork this repository
 2. Create another folder with your custom app name **in all lower case with no symbols or spaces and shouldn't contain the word spicetify**. 
