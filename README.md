@@ -40,11 +40,12 @@ custom_apps = reddit|genius|yourownapp
 | **Linux**   |~/.config/spicetify/CustomApps <br> **OR**<br>$XDG_CONFIG_HOME/.config/spicetify/CustomApps/|
 
 
-## Contributing / Adding your own custom apps to this repo
-Want to add your own custom app to this repo? Follow the instructions below <a href="https://github.com/3raxton/spicetify-custom-apps/blob/main/CONTRIBUTING.md"  target="_blank">or read the CONTRIBUTING.md file</a>
+## Want to contribute your custom app(s) to this repo? 
+Follow the instructions below or read the <a href="https://github.com/3raxton/spicetify-custom-apps/blob/main/CONTRIBUTING.md"  target="_blank">CONTRIBUTING.md file</a>!
 
 1. Fork this repository
-2. Create another folder with your custom app name **in all lower case with no symbols or spaces and shouldn't contain the word spicetify**. 
+2. Create another folder with your custom app name **in all lower case with no symbols (dashes and underscores are okay) or spaces.**
+     - **Ensure the files and folders don't contain the word spicetify**
 3. Copy the necessary files into the folder
 4. Create a README.md in it with the following structure
 ```
@@ -62,7 +63,7 @@ Want to add your own custom app to this repo? Follow the instructions below <a h
      - **If you decide to add your name, please use the following format**
 ```
 # Authors
-
+...
 ### [Your name](link to website, GitHub profile, donation page, etc.)
 
 - [Your custom app](link to repo)
@@ -72,9 +73,9 @@ Want to add your own custom app to this repo? Follow the instructions below <a h
 
 ## Support
 
-* If you run into any issues or need help troubleshooting any custom apps reach out to the Spicetify community on spectrum.chat
+* If you run into any issues or need help troubleshooting any custom apps reach out to the Spicetify community on [spectrum.chat](spectrum.chat)
 
-* If there are bugs or you'd like to request a feature, open an issue.
+* If there are bugs or you'd like to request a feature, open an issue using the respective template.
 
 ## License
 Licensed under the [MIT License](https://3raxton.github.io/license) by [Braxton Huff](https://github.com/3raxton) 
