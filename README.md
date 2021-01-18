@@ -41,7 +41,7 @@ custom_apps = reddit|genius|yourownapp
 
 
 ## Contributing / Adding your own custom apps to this repo
-Want to add your own custom app to this repo? Follow the instructions below<a href="https://github.com/3raxton/spicetify-custom-apps/blob/main/CONTRIBUTING.md"  target="_blank"> or read the CONTRIBUTING.MD file</a>
+Want to add your own custom app to this repo? Follow the instructions below <a href="https://github.com/3raxton/spicetify-custom-apps/blob/main/CONTRIBUTING.md"  target="_blank">or read the CONTRIBUTING.md file</a>
 
 1. Fork this repository
 2. Create another folder with your custom app name **in all lower case with no symbols or spaces and shouldn't contain the word spicetify**. 
@@ -58,7 +58,7 @@ Want to add your own custom app to this repo? Follow the instructions below<a hr
 
 [Specify any dependencies, author name, and any other info about the custom app]
 ```
-1. **(Optional)** Add your name and custom apps to the<a href="https://github.com/3raxton/spicetify-custom-apps/blob/main/AUTHORS.md"  target="_blank"> AUTHORS.MD</a> file 
+5. **(Optional)** Add your name and custom apps to the<a href="https://github.com/3raxton/spicetify-custom-apps/blob/main/AUTHORS.md"  target="_blank"> AUTHORS.md</a> file 
      - **If you decide to add your name, please use the following format**
 ```
 # Authors
@@ -68,7 +68,7 @@ Want to add your own custom app to this repo? Follow the instructions below<a hr
 - [Your custom app](link to repo)
      - Your custom app description and other info
 ```
-5. Open a Pull Request
+6. Open a Pull Request
 
 ## Support
 
