@@ -13,38 +13,20 @@ target="_blank"><br><img width="100" src="https://emojipedia-us.s3.dualstack.us-
 - 🛩 Direct links to authors
 - 🔥 Open source
 
-## Authors
+## Are you adding your name and custom app to this file?
+Copy the format below and paste it beneath the Authors section with the adequate details then open a pull request
 
-
-## Contributing / Adding your own custom apps to this repo
-Want to add your own custom app to this repo? Follow the instructions below <a href="https://github.com/3raxton/spicetify-custom-apps/blob/main/CONTRIBUTING.md"  target="_blank">or read the CONTRIBUTING.MD file</a>
-
-1. Fork this repository
-2. Create another folder with your custom app name **in all lower case with no symbols or spaces and shouldn't contain the word spicetify**. 
-3. Copy the necessary files into the folder
-4. Create a README.md in it with the following structure
 ```
-# App Name
-
-## Screenshots
-
-[Put at least one image of the app working here]
-
-## More
-
-[Specify any dependencies, author name, and any other info about the custom app]
-```
-5. **(Optional)** Add your name and custom apps to the AUTHORS.MD file 
-     - **If you decide to add your name, please use the following format**
-```
-# Authors
-
 ### [Your name](link to website, GitHub profile, donation page, etc.)
 
 - [Your custom app](link to repo)
      - Your custom app description and other info
 ```
-6. Open a Pull Request
+
+## Authors
+
+Below are the authors who have shared their custom apps in this repo. Follow them, say thanks, or take a look at more of their work!
+
 
 ## Support
 
