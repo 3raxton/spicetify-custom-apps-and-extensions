@@ -16,7 +16,8 @@ target="_blank"><br><img width="100" src="https://emojipedia-us.s3.dualstack.us-
 ## Contributing your custom app(s) to this repo? Follow the instructions below!
 
 1. Fork this repository
-2. Create another folder with your custom app name **in all lower case with no symbols or spaces. Ensure the files and folders don't contain the word spicetify**. 
+2. Create another folder with your custom app name **in all lower case with no symbols (dashes and underscores are okay) or spaces.** 
+     - **Ensure the files and folders don't contain the word spicetify**. 
 3. Copy the necessary files into the folder
 4. Create a README.md in it with the following structure
 ```
@@ -30,10 +31,9 @@ target="_blank"><br><img width="100" src="https://emojipedia-us.s3.dualstack.us-
 
 [Specify any dependencies, author name, and any other info about the custom app]
 ```
-5. **(Optional)** Add your name and custom apps to the <a href="https://github.com/3raxton/spicetify-custom-apps/blob/main/AUTHORS.md"  target="_blank">AUTHORS.md</a>file 
+5. **(Optional)** Add your name and custom apps to the <a href="https://github.com/3raxton/spicetify-custom-apps/blob/main/AUTHORS.md"  target="_blank">AUTHORS.md</a> file 
      - **If you decide to add your name, please use the following format**
 ```
-
 ### [Your name](link to website, GitHub profile, donation page, etc.)
 
 - [Your custom app](link to repo)
