@@ -9,8 +9,8 @@ target="_blank"><br><img width="100" src="https://emojipedia-us.s3.dualstack.us-
 <a href="https://3raxton.github.io/license"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"></a>
 
 ## Summary
-- 🤝 How to add your custom app to this repo
-- 🛩 Addition to a community oriented location
+- ➕ How to add your custom app to this repo
+- 🌎 Addition to a community oriented location
 - 🔥 Open source
 
 ## Contributing your custom app(s) to this repo?
