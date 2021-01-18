@@ -58,7 +58,7 @@ Want to add your own custom app to this repo? Follow the instructions below <a h
 
 [Specify any dependencies, author name, and any other info about the custom app]
 ```
-5. **(Optional)** Add your name and custom apps to the<a href="https://github.com/3raxton/spicetify-custom-apps/blob/main/AUTHORS.md"  target="_blank"> AUTHORS.md</a> file 
+5. **(Optional)** Add your name and custom apps to the <a href="https://github.com/3raxton/spicetify-custom-apps/blob/main/AUTHORS.md"  target="_blank">AUTHORS.md</a> file 
      - **If you decide to add your name, please use the following format**
 ```
 # Authors
