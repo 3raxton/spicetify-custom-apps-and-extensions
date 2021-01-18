@@ -14,7 +14,7 @@ target="_blank"><br><img width="100" src="https://emojipedia-us.s3.dualstack.us-
 - 🔥 Open source
 
 ## Are you adding your name and custom app to this file?
-Copy the format below and paste it beneath the [Authors](https://github.com/3raxton/spicetify-custom-apps/blob/main/AUTHORS.md#authors) section with the adequate details then open a pull request
+Copy the format below and paste it beneath the first line of text in the [Authors](https://github.com/3raxton/spicetify-custom-apps/blob/main/AUTHORS.md#authors) section with the adequate details then open a pull request
 
 ```
 ### [Your name](link to website, GitHub profile, donation page, etc.)
