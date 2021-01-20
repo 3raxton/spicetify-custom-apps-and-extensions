@@ -27,6 +27,11 @@ Copy the format below and paste it beneath the first line of text in the [Author
 
 Below are the authors who have shared their custom apps in this repo. Follow them, say thanks, or take a look at more of their work!
 
+### [@theRealPadster](https://github.com/theRealPadster/)
+- [spicetify-hide-podcasts](https://github.com/theRealPadster/spicetify-hide-podcasts/)
+     - Spicetify extension to hide podcasts. Hides the podcasts link in the sidebar and podcast carousel items (e.g. in 'Home' and 'Made For You'). 
+     - Based on the [ChristianSpotify](https://github.com/khanhas/spicetify-cli/wiki/Extensions#christian-spotify) extension and licensed under the [GPL-3.0 License](spicetify-hide-podcasts/LICENSE)
+
 ## License
 Licensed under the [MIT License](https://3raxton.github.io/license) by [Braxton Huff](https://github.com/3raxton) 
 
