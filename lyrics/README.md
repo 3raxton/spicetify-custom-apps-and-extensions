@@ -1,3 +1,6 @@
+![](https://img.shields.io/codefactor/grade/github/Darkempire78/Lyrics-Spicetify?style=for-the-badge) 
+![](https://img.shields.io/github/repo-size/Darkempire78/Lyrics-Spicetify?style=for-the-badge) 
+
 # Lyrics
 
 Lyrics is a Spicetify extension that allows you to display the lyrics of the song currently playing.
@@ -13,3 +16,4 @@ Click on the "LYRICS" button (next to the skip button) to display the lyrics.
 ## More
 
 **Author :** [Darkempire78](https://github.com/Darkempire78)
+**License :** [GPLv3](https://github.com/Darkempire78/Spotify-Lyrics/blob/master/LICENSE)
