@@ -8,6 +8,7 @@ Lyrics is a Spicetify extension that allows you to display the lyrics of the son
 ## Screenshots
 
 Enable the mode in the Spotify Menu (in the top right).
+
 ![](Capture2.png)
 
 Click on the "LYRICS" button (next to the skip button) to display the lyrics.
