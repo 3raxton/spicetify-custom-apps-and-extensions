@@ -17,4 +17,5 @@ Click on the "LYRICS" button (next to the skip button) to display the lyrics.
 ## More
 
 **Author :** [Darkempire78](https://github.com/Darkempire78)
+
 **License :** [GPLv3](https://github.com/Darkempire78/Spotify-Lyrics/blob/master/LICENSE)
