@@ -32,6 +32,12 @@ Below are the authors who have shared their custom apps in this repo. Follow the
      - Spicetify extension to hide podcasts. Hides the podcasts link in the sidebar and podcast carousel items (e.g. in 'Home' and 'Made For You'). 
      - Based on the [ChristianSpotify](https://github.com/khanhas/spicetify-cli/wiki/Extensions#christian-spotify) extension and licensed under the [GPL-3.0 License](spicetify-hide-podcasts/LICENSE)
 
+### [@JakeRoggenbuck](https://github.com/JakeRoggenbuck)
+
+- [ auto-skip-sad-songs](https://github.com/JakeRoggenbuck/spicetify-cli-extensions)
+     -  Add a list of artists and songs to this extension, and toggle an auto skip for them
+
+
 ### **If there is any other problem, please refer to the <a href="https://github.com/khanhas/spicetify-cli/wiki"  target="_blank">spicetify-cli wiki</a> to help troubleshoot your problem.**
 
 ### **Hopefully this helps improve your use of Spotifty and treats you well! Cheers!**
