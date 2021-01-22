@@ -1,5 +1,7 @@
 <h1 align="center">Spicetify Canvas</h1>
-<img align="center" src="https://i.imgur.com/RBnOZ6h.gif" alt="Canvas Example" />
+<p align="center">
+<img src="https://i.imgur.com/RBnOZ6h.gif" alt="Canvas Example" />
+</p>
 &nbsp;
 <p align="center">
 <img src="https://img.shields.io/badge/for-spicetify-FA9128.svg?style=for-the-badge" alt="For Spicetify">
