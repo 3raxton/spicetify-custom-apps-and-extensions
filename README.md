@@ -1,20 +1,20 @@
 <p align="center"><a href="https://github.com/3raxton/spicetify-custom-apps/"
 target="_blank"><br><img width="100" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/271/fire_1f525.png"></a></p>
-<h1 align="center">Spicetify Custom Apps</h1>
-<p align="center">A repository to help users find custom apps for  <a href="https://github.com/khanhas/spicetify-cli" target="_blank"> spicetify-cli</a></p>
+<h1 align="center">Spicetify Custom Apps and Extensions</h1>
+<p align="center">A repository to help users find custom apps and extensions for  <a href="https://github.com/khanhas/spicetify-cli" target="_blank"> spicetify-cli</a></p>
 <p align="center">
 </a>
-<a><img src="https://img.shields.io/badge/more-Custom%20Apps-orange.svg" alt="More Custom Apps"></a>
+<a><img src="https://img.shields.io/badge/more-Custom%20Apps%20&amp;%20Extensions-orange.svg" alt="More Custom Apps and Extensions"></a>
 <a><img src="https://img.shields.io/badge/for-spicetify-E71A0E.svg" alt="For Spicetify"></a>
 <a href="https://3raxton.github.io/license"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"></a>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F3raxton%2Fspicetify-customapps%2F&count_bg=%23E71A0E&title_bg=%23000000&icon=spotify.svg&icon_color=%23E71A0E&title=hits&edge_flat=false"/></a></p>
 
 ## Summary
-- 🔥 A central location for custom apps for spicetify-cli
+- 🔥 A central location for custom apps and extensions for spicetify-cli
 - 👀 More features
 - 🎉 Open source
 
-## How to add Custom Apps to Spicetify
+## How to add Custom Apps or Extensions to Spicetify
 
 1. [Install spicetify-cli using the instructions found here](https://github.com/khanhas/spicetify-cli/wiki/Installation)
 2.  Click on the green `Clone or download` button at the <b>top right</b> this repo  and choose ```Download ZIP```
@@ -27,6 +27,10 @@ target="_blank"><br><img width="100" src="https://emojipedia-us.s3.dualstack.us-
 [AdditionalOptions]
 ...
 custom_apps = reddit|genius|yourownapp
+```
+- OR add the respective apps / extension by typing:
+```
+spicetify config extensions CustomAppOrExtensionName.js
 ```
 8. Run ```spicetify backup apply``` in the command line and Spicetify will install the app
 9. You're set! 🎉
@@ -59,7 +63,7 @@ Follow the instructions below or read the <a href="https://github.com/3raxton/sp
 
 [Specify any dependencies, author name, and any other info about the custom app]
 ```
-5. **(Optional)** Add your name and custom apps to the <a href="https://github.com/3raxton/spicetify-custom-apps/blob/main/AUTHORS.md"  target="_blank">AUTHORS.md</a> file 
+5. **(Optional)** Add your name and custom apps or extensions to the <a href="https://github.com/3raxton/spicetify-custom-apps/blob/main/AUTHORS.md"  target="_blank">AUTHORS.md</a> file 
      - **If you decide to add your name, please use the following format**
 ```
 # Authors
@@ -73,7 +77,7 @@ Follow the instructions below or read the <a href="https://github.com/3raxton/sp
 
 ## Support
 
-* If you run into any issues or need help troubleshooting any custom apps reach out to the Spicetify community on [spectrum.chat](spectrum.chat)
+* If you run into any issues or need help troubleshooting any custom apps or extensions reach out to the Spicetify community on [spectrum.chat](spectrum.chat)
 
 * If there are bugs or you'd like to request a feature, open an issue using the respective template.
 

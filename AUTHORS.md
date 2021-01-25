@@ -42,6 +42,11 @@ Below are the authors who have shared their custom apps in this repo. Follow the
 - [historyShortcut](https://github.com/einzigartigerName/spicetify-history/)
      - Spicetify Extension which creates a shortcut to the Track History Page.
 
+### [@itsmeow](https://github.com/itsmeow)
+
+- [spicetify-canvas](https://github.com/itsmeow/Spicetify-Canvas)
+     - Spicetify extension that adds mobile Canvases to the fullscreen view.
+
 ### **If there is any other problem, please refer to the <a href="https://github.com/khanhas/spicetify-cli/wiki"  target="_blank">spicetify-cli wiki</a> to help troubleshoot your problem.**
 
 ### **Hopefully this helps improve your use of Spotifty and treats you well! Cheers!**
