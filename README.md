@@ -40,7 +40,7 @@ spicetify config extensions CustomAppOrExtensionName.js
 | **Platform**|**Path**                                                                                    |
 | ------------|--------------------------------------------------------------------------------------------|
 | **macOS**   |~/spicetify_data/Themes <br> **OR**<br>$SPICETIFY_CONFIG/CustomApps                         |
-| **Windows** |%userprofile%\.spicetify\CustomApps\                                                        |
+| **Windows** |%userprofile%\\.spicetify\CustomApps\                                                        |
 | **Linux**   |~/.config/spicetify/CustomApps <br> **OR**<br>$XDG_CONFIG_HOME/.config/spicetify/CustomApps/|
 
 
