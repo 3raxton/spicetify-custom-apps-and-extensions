@@ -4,7 +4,7 @@ Add a list of artists and songs to this extension, and toggle an auto skip for t
 
 ## Screenshots
 
-![Screenshot](https://github.com/3raxton/spicetify-custom-apps/auto-skip-sad-songs/screenshot.png?raw=true)
+![Screenshot](https://github.com/3raxton/spicetify-custom-apps/blob/main/auto-skip-sad-songs/screenshot.png?raw=true)
 
 ## More
 
