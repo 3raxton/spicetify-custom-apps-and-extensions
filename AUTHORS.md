@@ -29,7 +29,7 @@ Below are the authors who have shared their custom apps in this repo. Follow the
 
 ### [@theRealPadster](https://github.com/theRealPadster/)
 - [spicetify-hide-podcasts](https://github.com/theRealPadster/spicetify-hide-podcasts/)
-     - Spicetify extension to hide podcasts. Hides the podcasts link in the sidebar and podcast carousel items (e.g. in 'Home' and 'Made For You'). 
+     - Spicetify extension to hide podcasts. Hides the podcasts link in the sidebar and podcast carousel items (e.g. in 'Home' and 'Made For You').
      - Based on the [ChristianSpotify](https://github.com/khanhas/spicetify-cli/wiki/Extensions#christian-spotify) extension and licensed under the [GPL-3.0 License](spicetify-hide-podcasts/LICENSE)
 
 ### [@JakeRoggenbuck](https://github.com/JakeRoggenbuck)
@@ -51,6 +51,10 @@ Below are the authors who have shared their custom apps in this repo. Follow the
 
 - [view-playlists-with-song](https://github.com/spotify-util/ViewPlaylistsWithSong)
      - An extension geared towards Spotify users with larger libraries; view all your playlists that contain a specific song with the click of a button
+     
+### [@pnthach95](https://github.com/pnthach95)
+- [ copy-to-clipboard](https://github.com/pnthach95/spicetify-extensions)
+     -  Add Copy text to context menu
 
 ### **If there is any other problem, please refer to the <a href="https://github.com/khanhas/spicetify-cli/wiki"  target="_blank">spicetify-cli wiki</a> to help troubleshoot your problem.**
 
