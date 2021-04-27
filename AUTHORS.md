@@ -47,6 +47,11 @@ Below are the authors who have shared their custom apps in this repo. Follow the
 - [spicetify-canvas](https://github.com/itsmeow/Spicetify-Canvas)
      - Spicetify extension that adds mobile Canvases to the fullscreen view.
 
+### [@elijaholmos](https://github.com/elijaholmos)
+
+- [view-playlists-with-song](https://github.com/spotify-util/ViewPlaylistsWithSong)
+     - An extension geared towards Spotify users with larger libraries; view all your playlists that contain a specific song with the click of a button
+     
 ### [@pnthach95](https://github.com/pnthach95)
 - [ copy-to-clipboard](https://github.com/pnthach95/spicetify-extensions)
      -  Add Copy text to context menu
