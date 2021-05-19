@@ -8,9 +8,9 @@ Spicetify extension which allows you to copy text (song name, artist name, album
 
 ## Note
 
-Use `copytoclipboard.js` for Spotify <v1.1.56 and Spicetify <v1.2.1.
+Use `copytoclipboard.js` for Spotify <v1.1.59 and Spicetify <v2.0.0.
 
-Use `copytoclipboard2.js` for Spotify >v1.1.59 and Spicetify >v2.0.0.
+Use `copytoclipboard2.js` for Spotify ≥v1.1.59 and Spicetify ≥v2.0.0.
 
 Some text can't copy, it shows error like this:
 
