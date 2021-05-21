@@ -23,10 +23,10 @@ function SoundProfiles() {
     if (isNaN(volume)) {
       switch (i) {
         case 1:
-          volume = "0.5";
+          volume = "0.3";
           break;
         case 2:
-          volume = "0.3";
+          volume = "0.5";
           break;
         case 3:
           volume = "0.8";

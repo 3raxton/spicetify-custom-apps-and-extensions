@@ -13,8 +13,8 @@ A right click on the new buttons will let you save your current volume to that p
 
 ## Notes
 
-* It's possible that an update to spotify or spicetify will break your saved volumes, but I've yet to experience this. If this happens, try raising an issue on the [Volume Profile issues's github page](https://github.com/notPlancha/volume-profiles-spicetify/issues)
-  * Same thing for any other issue/bug
+* It's possible that an update to spotify or spicetify will break your saved volumes, but I've yet to experience this.
+  * If you encounter this or have any other issues / want to report any bugs, try raising an issue on the [Volume Profile issues's github page](https://github.com/notPlancha/volume-profiles-spicetify/issues)
 * This extension uses Uzair Farooq's [arrive.js](https://github.com/uzairfarooq/arrive)
 
 ## More
