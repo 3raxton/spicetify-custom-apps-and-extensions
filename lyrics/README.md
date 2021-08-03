@@ -3,6 +3,8 @@
 
 # Lyrics
 
+*THIS VERSION IS NOT UP TO DATE* an up to date version can be found on ![Darkempire78's github](https://github.com/Darkempire78/Lyrics-Spicetify)
+
 Lyrics is a Spicetify extension that allows you to display the lyrics of the song currently playing.
 
 ## Screenshots
