@@ -77,7 +77,7 @@ Follow the instructions below or read the <a href="https://github.com/3raxton/sp
 
 ## Support
 
-* If you run into any issues or need help troubleshooting any custom apps or extensions reach out to the Spicetify community on [Discord](https://discord.gg/VnevqPp2Rr), or create a [discussion](https://github.com/khanhas/spicetify-cli/discussions) in the spicetify-cli repository
+* If you run into any issues or need help troubleshooting any custom apps or extensions reach out to the Spicetify community on [Discord](https://discord.gg/VnevqPp2Rr), or create a [discussion](https://github.com/khanhas/spicetify-cli/discussions) in the spicetify-cli repository. It's also worth viewing previous issues on the Spicetify Community's [Spectrum](https://spectrum.chat/spicetify).
 
 * If there are bugs or you'd like to request a feature, open an issue using the respective template.
 
