@@ -56,6 +56,10 @@ Below are the authors who have shared their custom apps in this repo. Follow the
 - [ copy-to-clipboard](https://github.com/pnthach95/spicetify-extensions)
      -  Add Copy text to context menu
 
+### [@andrsdt](https://github.com/andrsdt)
+- [show-queue-duration](https://github.com/andrsdt/spicetify-show-queue-duration)
+  - Spicetify extension to show the total current queue duration in the "Queue" menu
+
 ### **If there is any other problem, please refer to the <a href="https://github.com/khanhas/spicetify-cli/wiki"  target="_blank">spicetify-cli wiki</a> to help troubleshoot your problem.**
 
 ### **Hopefully this helps improve your use of Spotifty and treats you well! Cheers!**
