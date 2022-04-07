@@ -1,24 +1,33 @@
-# Volume Profiler
+# Volume Profiles v2
 
-Spicetify extension to set your current Spotify volume into a saved volume
+This is the upgraded version of [Volume-Profiles-Spicetify-Extension-v1](https://github.com/notPlancha/Volume-Profiles-Spicetify-Extension-v1), where it's more responsive, more extended, and more Spicy.
+
+This exension is an extension for Spicetify-cli to save a volume to a profile, to load later when needed.
+
+To install it just grab the js in the dist folder, and load it with spicetify. If you want to build it, clone it (or download it) and run
+
+```
+npm i
+```
 
 ## Preview
 
-![Buttons screenshot](Buttons.png)
-
-A right click on the new buttons will let you save your current volume to that profile
-
-![Popup screenshot](popup.png)
-
+![buttons](https://github.com/notPlancha/Volume-Profiles-Spicetify-Extension-v2/blob/main/assets/buttons.png)
+![settings](https://github.com/notPlancha/Volume-Profiles-Spicetify-Extension-v2/blob/main/assets/settings.png)
 
 ## Notes
 
-* It's possible that an update to spotify or spicetify will break your saved volumes, but I've yet to experience this.
-  * If you encounter this or have any other issues / want to report any bugs, try raising an issue on the [Volume Profile issues's github page](https://github.com/notPlancha/volume-profiles-spicetify/issues)
-* This extension uses Uzair Farooq's [arrive.js](https://github.com/uzairfarooq/arrive)
+* This package uses uzairfarooq's [arrive.js](https://github.com/uzairfarooq/arrive) and franciscop's [umbrella js](https://github.com/franciscop/umbrella)
+
+* It's possible that an update to spotify or spicetify will break your saved volumes, but I've yet to experience this. If this happens, try raising an issue on the [Volume-Profiles-Spicetify-Extension-v2](https://github.com/notPlancha/Volume-Profiles-Spicetify-Extension-v2)'s issues page
+- Same thing for any other issue/bug
 
 ## More
 
-* Check out me ([@notPlancha](https://github.com/notPlancha)) for possibly future extensions, and check the where the repository is updated and stuff https://github.com/notPlancha/volume-profiles-spicetify
+- Check out me ([@notPlancha](https://github.com/notPlancha)) for possibly future extensions, and check the where the repository is updated and stuff: [Volume-Profiles-Spicetify-Extension-v2](https://github.com/notPlancha/Volume-Profiles-Spicetify-Extension-v2)
 
-* I might do a similar extension but with windows volume evaluation, depending on reception and interest. If you have any suggestions, drop it on the [issues's page](https://github.com/notPlancha/volume-profiles-spicetify/issues) or a direct pull request
+- If you have any suggestions, drop it on the [discussions page](https://github.com/notPlancha/Volume-Profiles-Spicetify-Extension-v2/discussions) or make a pull request
+
+## Made with Spicetify Creator
+
+- https://github.com/FlafyDev/spotify-css-editor
