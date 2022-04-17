@@ -72,6 +72,10 @@ Below are the authors who have shared their custom apps in this repo. Follow the
 - [show-queue-duration](https://github.com/andrsdt/spicetify-show-queue-duration)
   - Spicetify extension to show the total current queue duration in the "Queue" menu
 
+### [@hroland](https://github.com/hroland)
+- [show-local-files](https://github.com/hroland/spicetify-show-local-files)
+  - Spicetify extension which adds a sidebar shortcut to Local Files
+
 ### **If there is any other problem, please refer to the <a href="https://github.com/khanhas/spicetify-cli/wiki"  target="_blank">spicetify-cli wiki</a> to help troubleshoot your problem.**
 
 ### **Hopefully this helps improve your use of Spotifty and treats you well! Cheers!**
