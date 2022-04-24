@@ -2,15 +2,14 @@ import u from "umbrellajs"
 import { SettingsSection } from "spcr-settings";
 var arrive = require("arrive");
 export class VolumeProfile {
-    private static ToggleSettingsId = "volume-vrofile-toggle-on-left-click";
+    private static ToggleSettingsId = "volume-profile-toggle-on-left-click";
     public static get ToggleSettings() : boolean{
-        var toggle = Spicetify.LocalStorage.get(VolumeProfile.ToggleSettingsId);
+        let toggle = Spicetify.LocalStorage.get(VolumeProfile.ToggleSettingsId);
         if (toggle != "true" && toggle != "false"){
             Spicetify.LocalStorage.set(VolumeProfile.ToggleSettingsId, "true");
             return true;
         }else{
-            if (toggle == "true") return true;
-            else return false;
+            return toggle == "true";
         }
     }
     public static set ToggleSettings(value : boolean){
@@ -21,7 +20,7 @@ export class VolumeProfile {
     public static SettingsSectionRegister(){
         if (!VolumeProfile.SettingsRegistered){
             VolumeProfile.SettingsRegistered = true;
-            VolumeProfile.SettingsSection.pushSettings()
+            VolumeProfile.SettingsSection.pushSettings();
         }else{
             throw "Settings already registered"
         }
@@ -29,7 +28,7 @@ export class VolumeProfile {
     private static localStorageIdPref = 'localStorage-volume-profile-';
     private static settingIdPref = "settings-volume-profile-"
 
-    private _id : string;
+    private readonly _id : string;
     public buttonElement : any;
     constructor(id : string, defaultVolume : number, buttonElement : string) {
         this._id = id;
@@ -56,8 +55,7 @@ export class VolumeProfile {
         Spicetify.LocalStorage.set(this.localStorageId, value.toString());
     }
     public static isValidVolume(value : string) : boolean{
-        if (value == "" || isNaN(Number(value)) || Number(value) < 0 || Number(value) > 100 ) return false
-        else return true
+        return !(value == "" || isNaN(Number(value)) || Number(value) < 0 || Number(value) > 100);
     }
     public registerSetting(){
         VolumeProfile.SettingsSection.addInput(this.settingId,`Volume of Profile "${this._id}"`,this.toString(), () => {
@@ -67,11 +65,10 @@ export class VolumeProfile {
                 Spicetify.showNotification(`Saved Volume Profile "${this._id}" to ${this.toString()}`)
             }
         });
-        
     }
 
     public registerButton(){
-        document.arrive(".ExtraControls", {existing:  true, onceOnly : true}, (element : HTMLElement) => {
+        document.arrive(".main-nowPlayingBar-right > *", {existing:  true, onceOnly : true}, (element : HTMLElement) => {
             this.buttonElement.on("click", () => {
                 Spicetify.Player.setVolume(this.volume / 100);
             })
