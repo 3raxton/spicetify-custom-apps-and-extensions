@@ -1,7 +1,7 @@
 {
     "name": "volume-profiles",
     "description": "A Spicetify extension where you can save volumes to use for later",
-    "preview": "https://github.com/notPlancha/Volume-Profiles-Spicetify-Extension-v2/raw/main/assets/buttons.png",
+    "preview": "assets/buttons_square.png",
     "main": "dist/volume-profiles.js",
     "readme": "README.md",
     "authors": [
