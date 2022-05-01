@@ -7,7 +7,7 @@ target="_blank"><br><img width="100" src="https://emojipedia-us.s3.dualstack.us-
 <a><img src="https://img.shields.io/badge/more-Custom%20Apps%20&amp;%20Extensions-orange.svg" alt="More Custom Apps and Extensions"></a>
 <a><img src="https://img.shields.io/badge/for-spicetify-E71A0E.svg" alt="For Spicetify"></a>
 <a href="https://3raxton.github.io/license"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"></a>
-<!-- <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F3raxton%2Fspicetify-customapps%2F&count_bg=%23E71A0E&title_bg=%23000000&icon=spotify.svg&icon_color=%23E71A0E&title=hits&edge_flat=false"/></a></p> -->
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F3raxton%2Fspicetify-customapps%2F&count_bg=%23E71A0E&title_bg=%23000000&icon=spotify.svg&icon_color=%23E71A0E&title=hits&edge_flat=false"/></a></p>
 
 <br>
 
