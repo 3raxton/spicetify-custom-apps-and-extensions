@@ -12,9 +12,20 @@ target="_blank"><br><img width="100" src="https://emojipedia-us.s3.dualstack.us-
 <br>
 
 ## Summary
-- 🔥 A central location for custom apps and extensions for spicetify-cli
+- 🔥 A central location for custom apps and extensions for Spicetify
 - 👀 More features
 - 🎉 Open source
+
+<br>
+
+## Determining Which Folder to Use
+
+- If you have the updated design of Spotify and use [Spicetify 2.1.0 or later](https://github.com/spicetify/spicetify-cli/releases/tag/v2.1.0) 
+     - Utilize extensions and custom apps in the v2 folder
+<br>
+<br>
+- If you have the still use the legacy design of Spotify and use [Spicetify 1.2.1 or prior](https://github.com/spicetify/spicetify-cli/releases/tag/v1.2.1)
+     - Utilize extensions and custom apps in the v1 folder
 
 <br>
 
@@ -23,7 +34,8 @@ target="_blank"><br><img width="100" src="https://emojipedia-us.s3.dualstack.us-
 1. [Install spicetify-cli using the instructions found here](https://spicetify.app/docs/getting-started)
 2. Click on the green `Code` button at the <b>top right</b> of this repo  and choose ```Download ZIP```
 3. Unzip the .zip file 
-4. Choose the app that you want and drag it out of the folder
+4. Open the v1 or v2 folder based on the criteria above
+4. Choose the app that you want from either the v1 or v2 folder and drag it out of the folder
 5. Open the spicetify-cli CustomApps folder (paths can be found below)
 6. Drag the custom app into the CustomApps folder
 7. Open ```config.ini``` and add the name of the custom app to the ```custom_apps``` line separated by the ```|``` character
