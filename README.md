@@ -7,7 +7,7 @@ target="_blank"><br><img width="100" src="https://emojipedia-us.s3.dualstack.us-
 <a><img src="https://img.shields.io/badge/more-Custom%20Apps%20&amp;%20Extensions-orange.svg" alt="More Custom Apps and Extensions"></a>
 <a><img src="https://img.shields.io/badge/for-spicetify-E71A0E.svg" alt="For Spicetify"></a>
 <a href="https://3raxton.github.io/license"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F3raxton%2Fspicetify-customapps%2F&count_bg=%23E71A0E&title_bg=%23000000&icon=spotify.svg&icon_color=%23E71A0E&title=hits&edge_flat=false"/></a></p>
+<!-- <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F3raxton%2Fspicetify-customapps%2F&count_bg=%23E71A0E&title_bg=%23000000&icon=spotify.svg&icon_color=%23E71A0E&title=hits&edge_flat=false"/></a></p> -->
 
 <br>
 
@@ -98,16 +98,16 @@ Follow the instructions below or read the <a href="https://github.com/3raxton/sp
 ## Licenses
 
 * Each custom app or extension hosted in this repo falls under the license utilized by the maintainer
-* The layout of this repository is licensed under the [Braxton Huff License (BRAX)](https://3raxton.github.io/license/BRAX) by [Braxton Huff](https://github.com/3raxton) 
-* This includes the following files:
-     <br> <br>
+<br>
+* The layout of this repository is licensed under the [Braxton Huff License (BRAX)](https://3raxton.github.io/license/BRAX) by [Braxton Huff](https://github.com/3raxton) and <b>only includes the following files:</b><br><br>
+
      * AUTHORS.md
      * CODE_OF_CONDUCT.md
      * CONTRIBUTING.md
      * LICENSE.md
      * README.md
      <br><br>
-* This license may be modified and/or adapted upon discussion with the repo's original copyright owner
+* This license may be modified and/or adapted upon discussion with the original copyright owner
 <br><br>
 
 
