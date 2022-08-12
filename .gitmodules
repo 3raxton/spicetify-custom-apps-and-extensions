@@ -1,0 +1,6 @@
+[submodule "v2/Volume-Profiles-Spicetify-Extension-v2"]
+	path = v2/Volume-Profiles-Spicetify-Extension-v2
+	url = https://github.com/notPlancha/Volume-Profiles-Spicetify-Extension-v2.git
+[submodule "v2/volume-profile"]
+	path = v2/volume-profile
+	url = https://github.com/notPlancha/Volume-Profiles-Spicetify-Extension-v2
