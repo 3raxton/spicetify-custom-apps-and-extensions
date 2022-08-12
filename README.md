@@ -22,8 +22,9 @@ target="_blank"><br><img width="100" src="https://emojipedia-us.s3.dualstack.us-
 
 - If you have the updated design of Spotify and use [Spicetify 2.1.0 or later](https://github.com/spicetify/spicetify-cli/releases/tag/v2.1.0) 
      - Utilize extensions and custom apps in the v2 folder
+
 <br>
-<br>
+
 - If you have the still use the legacy design of Spotify and use [Spicetify 1.2.1 or prior](https://github.com/spicetify/spicetify-cli/releases/tag/v1.2.1)
      - Utilize extensions and custom apps in the v1 folder
 
@@ -68,7 +69,7 @@ Follow the instructions below or read the <a href="https://github.com/3raxton/sp
 
 1. Fork this repository
 2. Create another folder with your custom app name **in all lower case with no symbols (dashes and underscores are okay) or spaces.**
-     - **Ensure the files and folders don't contain the word spicetify**
+     - **Ensure the files and folders don't contain the word Spicetify**
 3. Copy the necessary files into the folder
 4. Create a README.md in it with the following structure
 ```
@@ -109,20 +110,23 @@ Follow the instructions below or read the <a href="https://github.com/3raxton/sp
 
 ## Licenses
 
-* Each custom app or extension hosted in this repo falls under the license utilized by the maintainer
+- Each custom app or extension hosted in this repo falls under the license utilized by the maintainer
 <br>
-* The layout of this repository is licensed under the [Braxton Huff License (BRAX)](https://3raxton.github.io/license/BRAX) by [Braxton Huff](https://github.com/3raxton) and <b>only includes the following files:</b><br><br>
+
+- The layout of this repository is licensed under the [Braxton Huff License (BRAX)](https://3raxton.github.io/license/BRAX) by [Braxton Huff](https://github.com/3raxton) and <b>only includes the following files:</b><br><br>
 
      * AUTHORS.md
      * CODE_OF_CONDUCT.md
      * CONTRIBUTING.md
      * LICENSE.md
      * README.md
-     <br><br>
+
+     <br>
+     
 * This license may be modified and/or adapted upon discussion with the original copyright owner
 <br><br>
 
 
-### **If there is any other problem, please refer to the <a href="https://spicetify.app/docs/getting-started"  target="_blank">spicetify website docs</a> to help troubleshoot your problem.**
+### **If there is any other problem, please refer to the <a href="https://spicetify.app/docs/getting-started"  target="_blank">Spicetify website docs</a> to help troubleshoot your problem.**
 
 ### **Hopefully this helps improve your use of Spotify and treats you well! Cheers!**
