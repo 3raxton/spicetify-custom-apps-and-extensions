@@ -58,9 +58,11 @@ spicetify config extensions CustomAppOrExtensionName.js
 
 | **Platform**|**Path**                                                                                    |
 | ------------|--------------------------------------------------------------------------------------------|
-| **macOS**   |~/spicetify_data/CustomApps <br> **OR**<br>$SPICETIFY_CONFIG/CustomApps                         |
-| **Windows** |%userprofile%\.spicetify\CustomApps\                                                        |
+| **Windows** |%userprofile%\.spicetify\CustomApps\ <br> **OR** <br> %appdata%\spicetify\CustomApps\       |
+| **macOS**   |~/spicetify_data/CustomApps <br> **OR**<br>$SPICETIFY_CONFIG/CustomApps                     |
 | **Linux**   |~/.config/spicetify/CustomApps <br> **OR**<br>$XDG_CONFIG_HOME/.config/spicetify/CustomApps/|
+
+[comment]: <> (uhh for some reason the backslash before the .spicetify in the windows section and after the % doesn't show up, problably some markdown thing that idk how to fix)
 
 <br>
 
