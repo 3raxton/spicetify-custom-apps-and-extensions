@@ -1,5 +1,5 @@
 <p align="center"><a href="https://github.com/3raxton/spicetify-custom-apps/"
-target="_blank"><br><img width="100" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/271/fire_1f525.png"></a></p>
+target="_blank"><br><img width="100" src="https://em-content.zobj.net/source/apple/391/fire_1f525.png"></a></p>
 <h1 align="center">Contributing to Spicetify Custom Apps</h1>
 <p align="center">How to add your custom app to this repo for <a href="https://github.com/khanhas/spicetify-cli" target="_blank"> spicetify-cli</a></p>
 <p align="center">
