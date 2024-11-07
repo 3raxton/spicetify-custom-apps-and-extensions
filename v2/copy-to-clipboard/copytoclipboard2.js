@@ -1,89 +1,73 @@
-// NAME: Copy text
+// NAME: Copy Text
 // AUTHOR: pnthach95
 // DESCRIPTION: Adds Copy text to context menu for Spotify v1.1.59 and Spicetify v2.0.0 and above
 
-/// <reference path="global.d.ts" />
+/// <reference path="globals.d.ts" />
 
-const { Type } = Spicetify.URI;
-
-/**
- * @see https://stackoverflow.com/questions/400212/how-do-i-copy-to-the-clipboard-in-javascript
- *
- * @param {string[]} uris URIs of right-click item
- */
-async function copyToClipboard(uris) {
-  const uri = Spicetify.URI.fromString(uris[0]);
-  let data = null;
-  try {
-    switch (uri.type) {
-      case Type.ALBUM:
-        data = await Spicetify.CosmosAsync.get(`https://api.spotify.com/v1/albums/${uri.getBase62Id()}`);
-        break;
-      case Type.TRACK:
-        data = await Spicetify.CosmosAsync.get(`https://api.spotify.com/v1/tracks/${uri.getBase62Id()}`);
-        break;
-      case Type.ARTIST:
-        data = await Spicetify.CosmosAsync.get(`https://api.spotify.com/v1/artists/${uri.getBase62Id()}`);
-        break;
-      case Type.PLAYLIST:
-      case Type.PLAYLIST_V2:
-        data = await Spicetify.CosmosAsync.get(`https://api.spotify.com/v1/playlists/${uri.getBase62Id()}`);
-        break;
-      default:
-        break;
+let copyTextCount = 0;
+(async function copyText() {
+    if (!Spicetify && copyTextCount < 200) {
+        setTimeout(copyText, 300);
+        copyTextCount++;
+        return;
     }
-  } catch (error) {
-    console.log(uri, error);
-  }
+    initCopyText();
+})();
 
-  if (data) {
-    var textArea = document.createElement("textarea");
-    textArea.style.position = 'fixed';
-    textArea.style.top = 0;
-    textArea.style.left = 0;
-    textArea.style.width = '2em';
-    textArea.style.height = '2em';
-    textArea.style.padding = 0;
-    textArea.style.border = 'none';
-    textArea.style.outline = 'none';
-    textArea.style.boxShadow = 'none';
-    textArea.style.background = 'transparent';
-    textArea.value = data.name;
-    document.body.appendChild(textArea);
-    textArea.focus();
-    textArea.select();
-    try {
-      var successful = document.execCommand('copy');
-      var msg = successful ? 'Successful' : 'Unsuccessful';
-      Spicetify.showNotification(msg + ' copied to Clipboard');
-    } catch (err) {
-      Spicetify.showNotification('Oops, unable to copy');
+function initCopyText() {
+    const { Type } = Spicetify.URI;
+
+    async function getText(uris) {
+        const uri = Spicetify.URI.fromString(uris[0]);
+
+        switch (uri.type) {
+            case Type.TRACK:
+                sendToClipboard((await Spicetify.CosmosAsync.get(`https://api.spotify.com/v1/tracks/${uri.getBase62Id()}`)).name);
+                break;
+            case Type.ALBUM:
+                sendToClipboard((await Spicetify.CosmosAsync.get(`wg://album/v1/album-app/album/${uri.getBase62Id()}/desktop`)).name);
+                break;
+
+            case Type.ARTIST:
+                sendToClipboard((await Spicetify.CosmosAsync.get(`wg://artist/v1/${uri.getBase62Id()}/desktop?format=json`)).info.name);
+                break;
+            case Type.PLAYLIST:
+            case Type.PLAYLIST_V2:
+                sendToClipboard((await Spicetify.CosmosAsync.get(`sp://core-playlist/v1/playlist/spotify:playlist:${uri.getBase62Id()}`)).playlist.name);
+                break;
+            case Type.SHOW:
+                sendToClipboard((await Spicetify.CosmosAsync.get(`sp://core-show/v1/shows/${uri.getBase62Id()}?responseFormat=protobufJson`)).header.showMetadata.name);
+                break;
+            default:
+                break;
+        }
     }
-    document.body.removeChild(textArea);
-  } else {
-    Spicetify.showNotification('Oops, unable to copy');
-  }
+
+    function sendToClipboard(text) {
+        if (text) {
+            Spicetify.showNotification(`copied : ${text}`);
+            Spicetify.Platform.ClipboardAPI.copy(text);
+        }
+    }
+
+    function shouldAddContextMenu(uris) {
+        if (uris.length === 1) {
+            const uri = Spicetify.URI.fromString(uris[0]);
+            switch (uri.type) {
+                case Type.TRACK:
+                case Type.ALBUM:
+                case Type.ARTIST:
+                case Type.PLAYLIST:
+                case Type.PLAYLIST_V2:
+                case Type.SHOW:
+                    return true;
+                default:
+                    return false;
+            }
+        } else {
+            return false;
+        }
+    }
+
+    new Spicetify.ContextMenu.Item("Copy Text", getText, shouldAddContextMenu, "copy").register();
 }
-
-/**
- * @param {string[]} uris URIs of right-click item
- */
-function shouldAdd(uris) {
-  if (uris.length === 1) {
-    const uri = Spicetify.URI.fromString(uris[0]);
-    switch (uri.type) {
-      case Type.ALBUM:
-      case Type.TRACK:
-      case Type.ARTIST:
-      case Type.PLAYLIST:
-      case Type.PLAYLIST_V2:
-        return true;
-      default:
-        return false;
-    }
-  } else {
-    return false;
-  }
-}
-
-new Spicetify.ContextMenu.Item('Copy text', copyToClipboard, shouldAdd, 'copy').register();
