@@ -1,5 +1,5 @@
 <p align="center"><a href="https://github.com/3raxton/spicetify-custom-apps/"
-target="_blank"><br><img width="100" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/271/floppy-disk_1f4be.png"></a></p>
+target="_blank"><br><img width="100" src="https://em-content.zobj.net/source/apple/391/floppy-disk_1f4be.png"></a></p>
 <h1 align="center">Spicetify Custom App Authors</h1>
 <p align="center">A list of the authors and their respective apps that are part of this repository to enhance <a href="https://github.com/khanhas/spicetify-cli" target="_blank"> spicetify-cli</a></p>
 <p align="center">
